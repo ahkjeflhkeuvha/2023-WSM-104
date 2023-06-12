@@ -6,6 +6,7 @@ h1{
     color:lightsalmon;
 }
 table{
+    padding:10px;
     border-collapse:collapse; /*셀 사이의 경계를 한 줄로*/
     margin:auto; /*수평적 가운데 배치*/
 }
