@@ -28,3 +28,15 @@ img{
     width:300px;
     height:auto;
 }
+caption{
+    font-size:24px; 
+    /* 글자 크기 */
+    font-weight: bold;
+    /* 글자 두께 */
+    margin-bottom:10px;
+}
+tfoot{
+    /* 이탤릭체 */
+    font-style:italic;
+    font-weight:bold;
+}
