@@ -9,7 +9,8 @@ h1{
     display:flow-root;
 }
 table{
-    
+    background-color: rgb(200, 200, 118);
+    border-radius: 50%;
     padding:10px;
     border-collapse:collapse; /*셀 사이의 경계를 한 줄로*/
     margin:auto; /*수평적 가운데 배치*/
