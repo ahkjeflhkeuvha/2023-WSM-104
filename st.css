@@ -1,0 +1,20 @@
+*{
+    color:blue;
+}
+div{
+    color:red;
+    font-size:50px;
+    font-style:italic;
+    font-weight:1000;
+    text-align:center;
+    background-color:aqua;
+    border-radius:50px;
+    padding:10px;
+}
+.c{
+    color:coral;
+}
+#i{
+    color:darkolivegreen;
+}
+/* 선택자 우선 순위 4순위 : * 3순위 : 태그 2순위 : class 1순위 : id */
