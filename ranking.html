@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        caption{
+            font-size: xx-large;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        table{
+            border: 4px solid black;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 5px;
+        }
+        tfoot{
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+
+    <table>
+        <caption>OO 랭킹</caption>
+        <thead>
+            <tr>
+                <th>순위</th>
+                <th>이름</th>
+                <th>포인트</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>JWP</td>
+                <td>420</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>자바칩</td>
+                <td>254</td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td>이사부</td>
+                <td rowspan="2">30</td>
+            </tr>
+            <tr>
+                <td>김무력</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">자료제공</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
