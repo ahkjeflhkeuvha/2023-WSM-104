@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>테이블</title>
+    </head>
+    <body>
+        <style>
+            table{
+                border: 4px solid black;
+                padding: 16px;
+                border-radius: 15px;
+                border-collapse: collapse;
+                /*셀 간의 간격을 없앰*/
+                text-align: center;
+                /**/
+                margin: auto;
+                /*수평적 가운데 정렬*/
+            }
+            td, th{
+                border: 1px solid gray;
+                padding: 2px 4px;
+            }
+        </style>
+
+        <table>
+            <tr>
+                <th>NO</th>
+                <th>제목</th>
+                <th>작사</th>
+                <th>작곡</th>
+                <th>편곡</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Fighting My Life</td>
+                <td colspan="2">WOOZI, BUMZU</td>
+                <td>BUMZU</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>손오공(Super)</td>
+                <td>Vernon</td>
+                <td>원우</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>먼지(Dust)</td>
+                <td>WOOZI, BUMZU</td>
+                <td>박기태</td>
+                <td>BUMZU</td>
+            </tr>
+            <tr>
+                <td colspan="5">생략된 내용이 있음</td>
+            </tr>
+        </table>
+    </body>
+</html>
