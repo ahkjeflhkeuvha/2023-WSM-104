@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input tag</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="username">id</label>
+            <input id="username" type="text" placeholder="아이디를 입력하세요">
+        </div>
+        
+        <div>
+            <label for="password">pw</label>
+            <input id="password" type="password" placeholder="비밀번호를 입력하세요">
+        </div>
+
+        <div>
+            <!-- radio는 name으로 의미상 연결 -> text나 password는 label과 id로 의미상 연결 -->
+            <!-- /value로 서버에 값 전달 -->
+            <input type="radio" name="탕수육" value="찍먹"> 찍먹
+            <input type="radio" name="탕수육" value="부먹"> 부먹
+        </div>
+
+        <div>
+            <input type="checkbox" name="언어" value="html"> HTML
+            <input type="checkbox" name="언어" value="css"> css
+            <input type="checkbox" name="언어" vlaue="javascript"> java script
+        </div>
+
+        <div>
+            <input type="submit" value="제출합니당">
+        </div>
+    </form>
+</body>
+</html>
