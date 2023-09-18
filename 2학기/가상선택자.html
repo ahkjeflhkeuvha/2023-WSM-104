@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover {
+            /* 요소 위에 마우스를 올렸을 때 */
+            color: indianred;
+            text-decoration: none;
+        }
+        button:active {
+            /* 버튼을 눌렀을 때 */
+            color: red;
+            background-color: palevioletred;
+        }
+        input:focus {
+            /* 포커스를 맞췄을 때 ->  집중되었을 때*/
+            color: red;
+            background-color: pink;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>
+        <a href="">마우스를 올리면 색상과 밑줄이 변경</a>
+    </p>
+    <p>
+        <button>버튼 클릭하면 색 변경</button>
+    </p>
+    <p>
+        <input type="text" placeholder="focus하면 색 변경">
+    </p>
+</body>
+</html>
