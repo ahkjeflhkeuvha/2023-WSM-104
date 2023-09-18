@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .a > .c {
+            border: 2px solid black;
+            /* 자식은 조부모의 직계자식이 아니라서 적용 X */
+        }
+
+        .a > .b {
+            border: 2px solid black;
+            /* 부모는 부모의 직계자식이라서 적용 */
+        }
+
+        .a .c {
+            border: 5px dotted red;
+            /* 자식은 조부모에 포함되기 때문에 적용 가능 */
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">조부모
+        <div class="b">부모
+            <div class="c">자식</div>
+        </div>
+    </div>
+</body>
+</html>
