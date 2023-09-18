@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            line-height: 60px;
+        }
+        .div-1 {
+            font-size: 50px;
+        }
+        .div-2 {
+            font-size: 35px;
+        }
+        .div-3 {
+            font-size: 20px;
+        }
+        .v-h {
+            visibility: hidden;
+            /* 보이지 않아도 요소의 공간은 차지 */
+        }
+        .o {
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <!-- 클래스에 띄어쓰기를 하면 여러 선택자를 적용시킬 수 있음 -->
+    <div class="div-1 o">하나</div>
+    <div class="div-2 v-h">둘</div>
+    <div class="div-3">셋</div>
+    <div></div>
+</body>
+</html>
