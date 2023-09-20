@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <style>
+        div {
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        /*border-box의 전체 너비 : width 너비 -> content 박스 너비 = width - padding - border*/
+        /* content-box의 전체 너비 : width + padding + border -> content 박스 너비 = width */
+        .a {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .b {
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+</body>
+</html>
