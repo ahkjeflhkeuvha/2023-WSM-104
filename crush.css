@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(68, 68, 210);
+    color: white;
+}
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 24px;
+    box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+th {
+    font-size: 28px;
+    padding: 10px;
+}
+.table-container a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.table-container a:hover {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.main-container > form > .input-container > input, label, select {
+    font-size: 24px;
+    border: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.main-container input:focus {
+    color: palevioletred;
+}
+.main-container .radio-container {
+    font-size: 24px;
+}
+.main-container h5 {
+    margin-bottom: 0px;
+}
+.main-container .checkbox-container {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+textarea:focus {
+    background-image: url(dino.png);
+    background-repeat: repeat-x;
+    background-size: 150px;
+    background-position: center;
+}
+.main-container > form > input {
+    font-size: 28px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main-container > form > input:hover {
+    color: blue;
+    border: 5px dotted pink;
+}
+.main-container > form > input:active {
+    color: red;
+    border: 10px double red;
+}

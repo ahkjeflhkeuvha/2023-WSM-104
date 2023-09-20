@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .input-container > input:focus {
+            color: red;
+            background-image: url(jimmy.png);
+        }
+        .radio-container {
+            background-color: pink;
+        }
+        span {
+            background-color: aqua;
+        }
+        a:hover {
+            color: gold;
+        }
+        a:active {
+            color: red;
+        }
+        textarea:hover {
+            background-image: url(dino.png);
+            background-repeat: no-repeat;
+        }
+        textarea:focus {
+            color: red;
+            background-image: url(jimmy.png);
+        }
+        select:active {
+            color: pink;
+        }
+        form > input:active {
+            color: aqua;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>진현이에게...</h1>
+    <form action="">
+        <div class="input-container">
+            <label for="name">이름</label>
+            <input id="name" type="text" placeholder="너의 이름은.." style="text-align:center">
+            
+            <label for="password">비번</label>
+            <input id="password" type="password" placeholder="너의 비번은.." style="text-align: center;">
+        </div>
+
+        <div class="radio-container">
+            <span><input type="radio" value="1" name="jh"> 친구소개</span>
+            <input type="radio" value="2" name="jh"> 지인소개
+            <input type="radio" value="3" name="jh"> 인터넷소개
+            <input type="radio" value="4" name="jh"> 홍보물접근
+            <input type="radio" value="5" name="jh"> 광고시청
+        </div>
+        
+        <div class="checkbox-container">
+            <input type="checkbox"> 힛
+            <input type="checkbox"> 힛
+            <input type="checkbox"> 힛
+            <input type="checkbox"> 힛
+            <input type="checkbox"> 힛
+        </div>
+
+        <a href="#">흐잇</a>
+
+        <div class="textarea-container">
+            <textarea cols="30" rows="10" style="text-align:justify;">불만 갓챠~
+            </textarea>
+        </div>
+
+        <div class="select-container">
+            <select name="select" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+
+        <input type="submit" value="제출하시라우~">
+    </form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUSH</title>
+    <link rel="stylesheet" href="crush.css">
+</head>
+<body>
+    <div class="table-container" style="color: black;">
+        <table>
+            <thead><caption>CALENDER</caption></thead>
+            <tbody>
+                <tr>
+                    <th>SUN</th>
+                    <th>MON</th>
+                    <th>TUE</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td><a href="">20</a></td>
+                    <td><a href="">21</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">22</a></td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="main-container">
+        <form action="">
+            <div class="input-container">
+                <label for="user">ID</label>
+                <input id="user" type="text" placeholder="아이디를 입력하세요">
+                
+                <label for="code">CODE</label>
+                <input id="code" type="password" placeholder="코드를 입력해주세요">
+            </div>
+            <div class="select-container">
+                <label for="performance">날짜</label>
+                <select name="" id="performance">
+                    <option value="20">20일</option>
+                    <option value="21">21일</option>
+                    <option value="22">22일</option>
+                </select>
+
+                <div class="radio-container">
+                    <h5>수령 방법</h5>
+                    <input type="radio"> 택배 (+5000원)
+                    <input type="radio"> 직접 수령
+                </div>
+
+                <div class="checkbox-container">
+                    <h5>MD 구매</h5>
+                    <input type="checkbox"> 담요
+                    <input type="checkbox"> 텀블러
+                    <input type="checkbox"> 리무버블 스티커
+                    <input type="checkbox"> 응원봉
+                </div>
+
+                <div class="textarea-container">
+                    <textarea name="" id="" cols="30" rows="10">
+아티스트를 위한 따뜻한 말 한마디 씩 부탁드립니다!
+                    </textarea>
+                </div>
+            </div>
+            <input type="submit" value="결제 완료!">
+        </form>
+    </div>
+</body>
+</html>
